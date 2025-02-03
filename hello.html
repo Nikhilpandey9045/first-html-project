@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invertis University Information</title>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Invertis University</h1>
+        <p>Empowering Education, Excellence, and Innovation</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a> | 
+        <a href="#courses">Courses</a> | 
+        <a href="#admissions">Admissions</a> | 
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div id="about">
+        <h2>About Invertis University</h2>
+        <p>Invertis University is one of the leading educational institutions in the country. Established with a vision to provide quality education, it offers a wide range of undergraduate and postgraduate programs across various disciplines.</p>
+    </div>
+
+    <div id="courses">
+        <h2>Courses Offered</h2>
+        <table border="1">
+            <tr>
+                <th>Course Name</th>
+                <th>Duration</th>
+                <th>Degree</th>
+            </tr>
+            <tr>
+                <td>Bachelor of Technology (B.Tech)</td>
+                <td>4 Years</td>
+                <td>Bachelor's Degree</td>
+            </tr>
+            <tr>
+                <td>Master of Business Administration (MBA)</td>
+                <td>2 Years</td>
+                <td>Master's Degree</td>
+            </tr>
+            <tr>
+                <td>Master of Computer Applications (MCA)</td>
+                <td>3 Years</td>
+                <td>Master's Degree</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="admissions">
+        <h2>Admissions</h2>
+        <p>To apply for admission, please fill out the form below and submit the required documents.</p>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="course">Course Interested In:</label>
+            <select id="course" name="course">
+                <option value="B.Tech">B.Tech</option>
+                <option value="MBA">MBA</option>
+                <option value="MCA">MCA</option>
+            </select><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need more information, feel free to contact us.</p>
+        <table border="1">
+            <tr>
+                <th>Contact Information</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td>+1 (800) 123-4567</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>info@invertisuniversity.com</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>Invertis University, bareilly</td>
+            </tr>
+        </table>
+    </div>
+
+    
+
+</body>
+</html>
